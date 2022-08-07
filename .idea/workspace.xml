@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3075b53e-a7c9-4202-a584-2d5eea3c9ef4" name="Default Changelist" comment="account menage">
+    <list default="true" id="3075b53e-a7c9-4202-a584-2d5eea3c9ef4" name="Default Changelist" comment="account menage - maxdebit exception">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javazaawansowane-programowanie/src/main/java/zadanie1/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javazaawansowane-programowanie/src/main/java/zadanie1/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zadanie1/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zadanie1/Account.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +51,26 @@
       <recent name="C:\Users\achme\Desktop\JAVA SDA\javazaawansowane-programowanie" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AccountApplication">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="AccountApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.main.java.zadanie1.AccountApplication" />
       <module name="javazaawansowane-programowanie" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.main.java.zadanie1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.main.java.zadanie2.Main" />
+      <module name="javazaawansowane-programowanie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.main.java.zadanie2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,6 +93,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.AccountApplication" />
         <item itemvalue="Application.Main" />
       </list>
@@ -103,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659875702906</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="account menage - maxdebit exception">
+      <created>1659877798985</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659877798985</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +138,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="account menage" />
-    <option name="LAST_COMMIT_MESSAGE" value="account menage" />
+    <MESSAGE value="account menage - maxdebit exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="account menage - maxdebit exception" />
   </component>
 </project>
