@@ -30,7 +30,7 @@ public class Account {
 
         } catch (Exception e) {
             e.printStackTrace();
-            System.out.println("Przechwycono wyjatek: " + e.getMessage());
+            System.out.println("*Przechwycono wyjatek: " + e.getMessage());
         }
     }
 
@@ -38,7 +38,7 @@ public class Account {
         try {
             int balanceBeforeWithdraw = balance;
             validateAmount(amount);
-            if (isBalanceAvailable(amount)) {
+            validateBalance(amount);
                 balance -= amount;
                 System.out.println("Stan konta przed operacją: " + balanceBeforeWithdraw
                         + "\nWypłata: " + amount
@@ -46,14 +46,13 @@ public class Account {
 
                 validateDebit();
                 return true;
-            }
 
         } catch (MaxDebit a) {
             a.printStackTrace();
-            System.out.println("Przechwycono wyjatek: " + a.getMessage());
+            System.out.println("*Przechwycono wyjatek: " + a.getMessage());
         } catch (Exception e) {
             e.printStackTrace();
-            System.out.println("Przechwycono wyjatek: " + e.getMessage());
+            System.out.println("*Przechwycono wyjatek: " + e.getMessage());
         }
         return false;
     }
@@ -75,8 +74,8 @@ public class Account {
         }
     }
 
-    private void balanceAvailable(int amount){
-        if (balance - amount >= maxDebit){
+    private void validateBalance(int amount){
+        if (balance - amount < maxDebit){
             throw new MaxDebit("Blad wyplaty: " + amount + "\nOsiagnales maxymalny limit debetu!");
         }
     }

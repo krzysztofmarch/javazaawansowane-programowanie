@@ -43,7 +43,7 @@ public class AccountApplication {
         System.out.println(account2);
 
         System.out.println();
-        account2.withdraw(50);
+        account2.withdraw(-50);
         System.out.println(account2);
 
 
